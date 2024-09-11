@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            display: flex;
+        }
+        .left-panel {
+            width: 20%;
+            border: 2px solid #ccc;
+            height: 650px;
+            overflow-y: auto;
+        }
+        .right-panel {
+            width: 80%;
+            border: 2px solid #ccc;
+        }
+        iframe {
+            width: 100%;
+            height: 650px;
+            border: none;
+        }
+        .left-panel img {
+            width: 100%; 
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <div class="left-panel">
+                <p>Project 1 - Resume<p>
+                <a href="./Resume_Task.html" target="content-frame"><img src="./resume.png" ></a>
+
+                <p>Project 2 - Photo Cat App<p>
+                <a href="./Cat_Photo.html" target="content-frame"><img src="./cat.png" ></a>
+
+                <p>Project 3 - Form<p></p>
+                <a href="./form_exmpl.html" target="content-frame"><img src="./form.png" ></a>
+
+                <p>Project 1 - Tribute Page<p></p>
+                <a href="./tribute_Page.html" target="content-frame"><img src="./Tribute.png"></a>
+            
+        </div>
+        
+        <div class="right-panel">
+            <iframe name="content-frame" src="./Resume_Task.html"></iframe>
+        </div>
+    </body>
+</body>
+</html>
